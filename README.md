@@ -1,10 +1,9 @@
 ## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
 
+Ai driven mock interview assistant using Siamese Network
 ## About
 <!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+An AI-driven mock interview assistant, like the one you're developing, leverages natural language processing (NLP) and machine learning to simulate realistic interview scenarios, allowing users to practice and improve their interview skills
 
 ## Features
 <!--List the features of the project as shown below-->
@@ -27,32 +26,39 @@ Tailored Chatbot for Hostel Booking System is a project designed to integrate a 
 ## System Architecture
 <!--Embed the system architecture diagram as shown below-->
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
-
+![Architecture](https://github.com/user-attachments/assets/9f34606a-b045-47c0-ac2a-382fa05807a4)
 
 ## Output
 
 <!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+#### Output1 - Similarity Score of Model using cosine similarity
+![WhatsApp Image 2024-10-22 at 20 41 25_3c34fbb6](https://github.com/user-attachments/assets/ae983725-30bf-40ff-beb7-fe155135d83b)
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+#### Output2 - Similarity Score of Model using Siamese Network
+
+![WhatsApp Image 2024-10-16 at 21 52 00_bb172b6e](https://github.com/user-attachments/assets/4cc16878-c0fc-4fab-8ec8-7a06a9f623b6)
 
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+<!--Give the results and impact as shown below-->
+The similarity score of the model when we use cosine similarity we will get high score regarding the similarity score, where as when we use the siamese network we will get much more similarity score because siamese network considers overall context of the sentence.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+
+[1] Joel, Manuel, C, J., M, Soltani, Sabi., Mikael, Benson., Gokul, Baburaj., S, Saritha. (2024). Q&amp;AI: An AI Powered Mock Interview Bot for Enhancing the Performance of Aspiring Professionals.doi: 10.1109/raeeucci61380.2024.10547951.
+
+[2] Pankaj, Rambhau, Patil. (2024). Elevating Performance Through AI-Driven Mock Interviews. International Journal For Science Technology And Engineering, 12(6):1136-1139. doi: 10.22214/ijraset.2024.63277
+
+[3] Param, Kothari., Piyush, Mehta., Sharvil, Patil., Prof., Varsha, Hole. (2024). InterviewEase : AI-powered interview assistance.   doi: 10.21203/rs.3.rs-3964944/v1
+
+[4] Leonardo, Banh., Gero, Strobel. (2023). 4. Generative artificial intelligence. Electronic Markets,  doi: 10.1007/s12525-023-00680-1
+
+[5] Yi-Chi, Chou., Felicia, R., Wongso., Chun-Yen, Chao., Han-Yen, Yu. (2022). An AI Mock-interview Platform for Interview Performance Analysis.  37-41. doi: 10.1109/ICIET55102.2022.9778999
+
+[6]Jun, Yin., Xin, Jiang., Zhengdong, Lu., Lifeng, Shang., Hang, Li., Xiaoming, Li. (2016). Neural generative question answering.  2972-2978. doi: 10.18653/V1/W16-0106
 
 
 
