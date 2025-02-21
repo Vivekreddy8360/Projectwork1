@@ -1,12 +1,17 @@
 ## Title of the Project
 AI-Driven Personal Gym Assistant
 ## About
+```
 The AI-Driven Personal Gym Assistant is an advanced fitness application that combines computer vision, AI-powered coaching, and personalized meal planning to enhance the workout experience. The system uses MediaPipe Pose Estimation to provide real-time feedback on exercise form, rep counting, and posture correction. It also integrates an AI chatbot via the Groq Cloud API to assist users with fitness and nutrition-related queries. Additionally, it includes a diet planner using the Spoonacular API, which generates personalized meal recommendations based on caloric intake goals. This project is developed with Streamlit, offering a user-friendly and interactive interface.
+```
 
 ## Features
+```
 Real-Time Exercise Tracking – Uses MediaPipe Pose Estimation to track workouts and provide posture feedback. AI Chatbot for Fitness & Nutrition – Integrates Groq Cloud API to assist users with fitness-related queries. Personalized Meal Planning – Fetches diet recommendations via Spoonacular API based on user caloric needs. Automated Rep Counting & Form Analysis – Provides real-time performance tracking during workouts. User-Friendly Interface – Built using Streamlit, ensuring an interactive and accessible experience. Scalable and Flexible – Can be expanded to support additional workout types and diet customization.
+```
 
 ## Requirements
+```
 Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
 Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
 Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
@@ -14,7 +19,7 @@ Image Processing Libraries: OpenCV is essential for efficient image processing a
 Version Control: Implementation of Git for collaborative development and effective code management.
 IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
 Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
-
+```
 ## System Architecture
 ![image](https://github.com/user-attachments/assets/47524d1a-053f-4c77-a33f-2c5ac7d97b95)
 
@@ -37,6 +42,7 @@ Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), Ten
 ![image](https://github.com/user-attachments/assets/bea18b73-5958-4f42-9589-0a5463143482)
 
 ## Results and Impact
+```
 Results of AI Personal Trainer & Diet Planner Assistant Project
 
 Exercise Tracking & Pose Estimation
@@ -44,7 +50,7 @@ Real-Time Form Correction & Feedback System
 Diet Planner & Spoonacular API Integration
 AI Chatbot for Fitness & Diet Assistance
 Performance & User Experience
-
+```
 ## Articles published / References
 [1] Nayak, V. (2023). Personal AI Trainer. International Journal For Science Technology And Engineering, 11(5), 4361–4366.
 
