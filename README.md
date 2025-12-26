@@ -27,13 +27,13 @@ An AI-driven mock interview assistant, like the one you're developing, leverages
 <!--Embed the system architecture diagram as shown below-->
 
 ![Architecture](https://github.com/user-attachments/assets/9f34606a-b045-47c0-ac2a-382fa05807a4)
->>>>>>> bdd9b5f822b220ab585ab187814971bce6256c20
+
 
 ## Output
 
 <!--Embed the Output picture at respective places as shown below as shown below-->
 
-=======
+
 #### Output1 - Similarity Score of Model using cosine similarity
 ![WhatsApp Image 2024-10-22 at 20 41 25_3c34fbb6](https://github.com/user-attachments/assets/ae983725-30bf-40ff-beb7-fe155135d83b)
 
