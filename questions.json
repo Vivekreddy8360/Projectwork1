@@ -1,0 +1,151 @@
+{
+    "Python": {
+        "Beginner": [
+            {
+                "question": "What is __init__?",
+                "expected_keywords": ["__init__ is a contructor method in Python and is automatically called to allocate memory when a new object/instance is created. All classes have a __init__ method associated with them. It helps in distinguishing methods and attributes of a class from local variables."]
+            },
+            {
+                "question": "What is the difference between Python Arrays and lists?",
+                "expected_keywords": ["Arrays in python can only contain elements of same data types i.e., data type of array should be homogeneous. It is a thin wrapper around C language arrays and consumes far less memory than lists.Lists in python can contain elements of different data types i.e., data type of lists can be heterogeneous. It has the disadvantage of consuming large memory."]
+            },
+            {
+                "question": "What is the use of self in Python?",
+                "expected_keywords":["Self is used to represent the instance of the class. With this keyword, you can access the attributes and methods of the class in python. It binds the attributes with the given arguments. self is used in different places and often thought to be a keyword. But unlike in C++, self is not a keyword in Python."]
+            }
+        ],
+        "Intermediate": [
+            {
+                "question": "How do you access parent members in the child class?",
+                "expected_keywords": ["By using Parent class name: You can use the name of the parent class to access the attributes or else By using super(): The parent class members can be accessed in child class using the super keyword."]
+            },
+            {
+                "question": "How does inheritance work in python?",
+                "expected_keywords":["Inheritance gives the power to a class to access all attributes and methods of another class. It aids in code reusability and helps the developer to maintain applications without redundant code. The class inheriting from another class is a child class or also called a derived class. The class from which a child class derives the members are called parent class or superclass."]
+            },
+            {
+                "question": "Are access specifiers used in python?",
+                "expected_keywords":["Python does not make use of access specifiers specifically like private, public, protected, etc. However, it does not derive this from any variables. It has the concept of imitating the behaviour of variables by making use of a single (protected) or double underscore (private) as prefixed to the variable names. By default, the variables without prefixed underscores are public."]
+            }
+        ],
+        "Advanced": [
+            {
+                "question": "",
+                "expected_keywords": 
+            }
+        ]
+    },
+    "Java": {
+        "Beginner": [
+            {
+                "question": "Can you describe how inheritance works in Java?",
+                "expected_keywords": ["inheritance", "extends", "superclass", "subclass"]
+            }
+        ],
+        "Intermediate": [
+            {
+                "question": "What is the difference between an interface and an abstract class in Java?",
+                "expected_keywords": ["interface", "abstract class", "implements", "extends"]
+            }
+        ],
+        "Advanced": [
+            {
+                "question": "How does garbage collection work in Java?",
+                "expected_keywords": ["garbage collection", "GC", "memory management", "heap"]
+            }
+        ]
+    },
+    "C++": {
+        "Beginner": [
+            {
+                "question": "What is the difference between a pointer and a reference in C++?",
+                "expected_keywords": ["pointer", "reference", "dereference"]
+            }
+        ],
+        "Intermediate": [
+            {
+                "question": "Explain the concept of RAII in C++.",
+                "expected_keywords": ["RAII", "resource management", "constructor", "destructor"]
+            }
+        ],
+        "Advanced": [
+            {
+                "question": "What is the significance of the 'this' pointer in C++?",
+                "expected_keywords": ["this pointer", "current object", "member function"]
+            }
+        ]
+    },
+    "JavaScript": {
+        "Beginner": [
+            {
+                "question": "How do you manage asynchronous operations in JavaScript?",
+                "expected_keywords": ["async", "await", "promise", "callback"]
+            }
+        ],
+        "Intermediate": [
+            {
+                "question": "What are JavaScript closures and how are they used?",
+                "expected_keywords": ["closure", "scope", "lexical environment"]
+            }
+        ],
+        "Advanced": [
+            {
+                "question": "Can you explain the event loop in JavaScript?",
+                "expected_keywords": ["event loop", "call stack", "task queue"]
+            }
+        ]
+    },
+    "Machine Learning": {
+        "Beginner": [
+            {
+                "question": "What is supervised learning, and how does it differ from unsupervised learning?",
+                "expected_keywords": ["supervised learning", "unsupervised learning", "labeled data", "clustering", "classification"]
+            },
+            {
+                "question": "What is overfitting, and how can it be prevented?",
+                "expected_keywords": ["overfitting", "underfitting", "regularization", "cross-validation"]
+            }
+        ],
+        "Intermediate": [
+            {
+                "question": "Explain the concept of gradient descent and how it works.",
+                "expected_keywords": ["gradient descent", "cost function", "learning rate", "optimization"]
+            }
+        ],
+        "Advanced": [
+            {
+                "question": "What are convolutional neural networks (CNNs), and how are they used in image recognition tasks?",
+                "expected_keywords": ["convolutional neural network", "CNN", "filters", "image recognition"]
+            }
+        ]
+    },
+    "Data Science": {
+        "Beginner": [
+            {
+                "question": "What is the difference between descriptive and inferential statistics?",
+                "expected_keywords": ["descriptive statistics", "inferential statistics", "population", "sample"]
+            },
+            {
+                "question": "Can you explain the purpose of data wrangling in data science?",
+                "expected_keywords": ["data wrangling", "data cleaning", "transforming data", "preprocessing"]
+            }
+        ],
+        "Intermediate": [
+            {
+                "question": "How would you handle missing data in a dataset?",
+                "expected_keywords": ["missing data", "imputation", "mean", "median", "drop rows"]
+            }
+        ],
+        "Advanced": [
+            {
+                "question": "Explain the concept of principal component analysis (PCA) and its use in dimensionality reduction.",
+                "expected_keywords": ["principal component analysis", "PCA", "dimensionality reduction", "eigenvalues", "variance"]
+            }
+        ]
+    }
+}
+
+
+
+
+How do you access parent members in the child class?
