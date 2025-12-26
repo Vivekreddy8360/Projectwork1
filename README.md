@@ -1,5 +1,7 @@
 ## Title of the Project
+```
 AI-Driven Personal Gym Assistant
+```
 ## About
 ```
 The AI-Driven Personal Gym Assistant is an advanced fitness application that combines computer vision, AI-powered coaching, and personalized meal planning to enhance the workout experience. The system uses MediaPipe Pose Estimation to provide real-time feedback on exercise form, rep counting, and posture correction. It also integrates an AI chatbot via the Groq Cloud API to assist users with fitness and nutrition-related queries. Additionally, it includes a diet planner using the Spoonacular API, which generates personalized meal recommendations based on caloric intake goals. This project is developed with Streamlit, offering a user-friendly and interactive interface.
